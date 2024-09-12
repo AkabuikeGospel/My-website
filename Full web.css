@@ -1,0 +1,134 @@
+.navigation{
+    background: transparent;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: white; 
+    justify-content: center;
+    display: flex;
+}
+body{
+    background: url(IMAGE/design-your-own-house-ocean-view-inspiration-artisanhd.jpg);
+    
+}
+.nav-links{
+    font-size: larger;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+}
+.nav-links a:hover{
+    color: orange;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    list-style: none;
+    color: white;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+.nav-links li{
+    margin: 0% 40px; 
+}
+input{
+    width: 100px;
+    height: 35px;
+    background: grey;
+    border-radius: 5px;
+    justify-content: end;
+}
+.navigation .box{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(223, 150, 15);
+    text-align: center;
+    justify-content: end;
+    margin: 0% -5px;
+    border-radius: 5px;
+}
+.navigation .box:hover{
+    background-color: aqua;
+    color: brown;
+    cursor: pointer;
+    transition: 5s;
+}
+.box2{
+    width: 280px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, .70);
+    border-radius: 3%;
+    align-items: flex-end;
+    justify-content: right;
+    margin: -36% 920px;
+}
+.logo{
+    color: rgb(238, 156, 4);
+    font-size: 30px;
+}
+.box3{
+    width: 70%;
+    height: 10%;
+    background-color: white;
+    border-radius: 9px;
+    margin: 2% 42px;
+    color: rgb(238, 156, 4);
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+h3{
+    color: grey;
+    margin: 10% 42px;
+    align-items: center;
+}
+.box4{
+    width: 70%;
+    height: 10%;
+    background-color: orange;
+    border-radius: 9px;
+    margin: 2% 42px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    margin: 1% 50px;
+    color: white;
+    bottom: 10px;
+}
+.boy{
+    color: orange;
+}
+p{
+    color: white;
+    font-size: large;
+}
+.smart{
+    width: 15%;
+    height: 30%;
+    background-color: orange;
+    border-radius: 9px;
+    margin: 2% 42px;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+.class{
+    margin: 10% 25px;
+}
+.container{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .80);
+}
+#textarea{
+    resize: none;
+    height: 23px;
+
+}

@@ -1,0 +1,62 @@
+.box{
+    width: 500px;
+    height: 550px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .50);
+    color: white;
+    border-radius: 7px;
+    font-size: larger;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(IMAGE/06e75ecf-c90f-41c7-89c5-5b3bdb59dc53.jpg);
+    
+}
+.formF2{
+    margin-left: 1%;
+    width: 345px;
+    height: 8%;
+    margin-bottom: 15%;
+    border-radius: 20px;
+    background: transparent;
+}
+
+.formF4{
+    margin-left: 1%;
+    width: 345px;
+    height: 8%;
+    border-radius: 20px;
+    background: transparent;
+}
+.checkbox{
+    margin-left: -40%;
+    margin-top: 5%;
+   
+}
+.box4{
+    text-align: center;
+    justify-content: center;
+    width: 70%;
+    height: 10%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 15%;
+    color: black;
+    font-size: large;
+    text-decoration: none;
+    list-style: none;
+}
+h3{
+    text-align: center;
+}
+.forgot{
+    margin-left: 58%;
+    margin-top: -5%;
+}

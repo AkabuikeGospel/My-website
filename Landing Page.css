@@ -1,0 +1,109 @@
+body .box2{
+    width: 350px;
+    height: 576px;
+    background-color: rgba(0, 0, 0, .1);
+    justify-content: end;
+    margin: 0% -5px;
+    margin-left: -28%;
+    border-radius: 15px;
+    color: white;
+    font-size: larger;
+    font-weight: 300;
+    
+}
+.box1{
+
+    background-color: rgba(0, 0, 0, .50);
+    width: 1000px;
+    height: 576px;
+    border-radius: 15px;
+    color: white;
+    text-indent: 5%;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    background:url(IMAGE/v2-a4h9b-94q6u.jpg);
+    
+}
+.text{
+    margin: 5%;
+}
+.text2{
+    font-size: 37px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    margin-bottom: none;
+}
+.textarea{
+    margin-top: 11%;
+    text-indent: 9%;
+}
+.text3{
+    margin-top: -2%;
+}
+.lorems{
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 1%;
+}
+.lorem{
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: -2%;
+}
+.form{
+    margin-top: 25%;
+    text-align: center;
+    font-weight: 900;
+}
+.formF{
+   margin-left: 15%;
+}
+.formF2{
+    margin-left: 15%;
+    width: 270px;
+    height: 6%;
+    margin-bottom: 15%;
+    border-radius: 10px;
+    
+}
+.formF3{
+    margin-top: 30%;
+    margin-left: 15%;
+    width: 270px;
+    height: 4%;
+}
+.formF4{
+    margin-left: 15%;
+    width: 270px;
+    height: 6%;
+    border-radius: 10px;
+}
+.checkbox{
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.box4{
+    text-align: center;
+    justify-content: center;
+    width: 70%;
+    height: 6%;
+    background-color: rgb(202, 28, 28);
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 15%;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+h3{
+    text-align: center;
+}
+.forgot{
+    margin-left: 58%;
+    margin-top: -6%;
+}

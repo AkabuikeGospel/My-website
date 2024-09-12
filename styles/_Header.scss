@@ -1,0 +1,22 @@
+.container{
+    width: 100%;
+    height: 100%;
+    background: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button{
+        background: green;
+        color: white;
+        width: 50% + 10%;
+        &:hover{
+            background: $primaryBtn;
+        }
+        &:hover::after{
+            content: " Hello";
+        }
+    }
+    h1{
+        background: aqua;
+    }
+}

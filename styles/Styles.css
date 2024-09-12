@@ -1,0 +1,77 @@
+.container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: red;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-decoration: none;
+  font-size: xx-large;
+  color: white;
+}
+
+.Mainbox {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+}
+
+.Box1 {
+  width: 700px;
+  height: 360px;
+  background-color: #dad5d5;
+  border-radius: 4%;
+}
+
+.About {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.name {
+  margin-left: 5%;
+  margin-top: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+input {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  width: 630px;
+  border-radius: 10px;
+}
+
+button {
+  margin-left: 5.100%;
+  margin-top: 4%;
+  height: 40px;
+  width: 635px;
+}
+/*# sourceMappingURL=Styles.css.map */

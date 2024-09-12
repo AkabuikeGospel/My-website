@@ -1,0 +1,71 @@
+.container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: red;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-decoration: none;
+  font-size: xx-large;
+  color: white;
+}
+
+.Mainbox {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+}
+
+.Box1 {
+  width: 850px;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 4%;
+}
+
+input {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: #020294;
+  width: 400px;
+  height: 100px;
+  margin-left: 1%;
+}
+
+.About {
+  text-align: center;
+}
+
+.name1 {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+button {
+  margin-left: 30.100%;
+  margin-top: 10%;
+  height: 40px;
+  width: 300px;
+}
+body{
+  background: linear-gradient( to bottom, blue, rgba(2, 4, 143, 0.562));
+}
+/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,53 @@
+@mixin Gospel($background, $direction){
+    display: flex;
+    justify-content: center;
+    flex-direction: $direction;
+    background: $background;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size:xx-large;
+    color: white;
+   
+}
+$primaryBtn: rgb(255, 0, 242);
+.container2{
+    @include Gospel(red, row)
+}
+.Mainbox{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    
+}
+.Box1{
+    width: 700px;
+    height: 360px;
+    background-color: rgb(218, 213, 213);
+    border-radius: 4%;
+}
+.About{
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+}
+.name{
+    margin-left: 5%;
+    margin-top: 5%;
+    align-items: center;
+    
+}
+input{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    width: 630px;
+    border-radius: 10px;
+}
+button{
+    margin-left: 5.100%;
+    margin-top: 4%;
+    height: 40px;
+    width: 635px;
+}
